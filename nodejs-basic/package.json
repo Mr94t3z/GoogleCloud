@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "NODE_ENV=development node ./node-package-manager/index.js",
+    "start": "NODE_ENV=production node app.js"
+  },
+  "author": "Muhamad Taopik",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
