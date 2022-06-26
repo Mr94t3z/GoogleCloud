@@ -25,3 +25,9 @@ init();
 // // output: Halaman tidak ditemukan
 // curl -X POST http://localhost:9999
 // // output: Halaman tidak dapat diakses dengan method tersebut
+
+
+// curl -X GET http://localhost:9999/hello/taopik
+// // output: Hello, dicoding!
+// curl -X GET http://localhost:9999/hello
+// // output: Hello, stranger!
