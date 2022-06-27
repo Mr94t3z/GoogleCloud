@@ -20,7 +20,7 @@ const addBookHandler = (request, h) => {
   const insertedAt = new Date().toISOString();
   const updatedAt = insertedAt;
 
-  // if name = null
+  // if name undefined
   if (name === undefined) {
     const response = h.response({
       status: 'fail',
@@ -153,7 +153,7 @@ const editBookByIdHandler = (request, h) => {
   } = request.payload;
   const updatedAt = new Date().toISOString();
 
-  // if name = null
+  // if name undefined
   if (name === undefined) {
     const response = h.response({
       status: 'fail',
