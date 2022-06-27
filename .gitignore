@@ -1,2 +1,4 @@
-API.txt
+# API folder
+API/
+# node modules
 node_modules*
